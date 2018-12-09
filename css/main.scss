@@ -177,7 +177,7 @@ main {
                 border-radius: 12px;
                 margin-top: -40px;
                 
-                h1 {
+                h3 {
                     font-size: 3em;
                     text-align: center;
                     color: #FFFFFF;
@@ -259,3 +259,75 @@ main {
 .tab {
     padding-right: 60px;
 }
+
+.card-collection {
+    padding: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ }
+
+ .card {
+    background: #fff;
+    padding: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin: 1em auto;
+    border-radius: $borders;
+    box-shadow: 0 10px 30px rgba(0,0,0,.2);
+    width: 80%;
+    height: 175px;
+    flex: 0 1 24%;
+
+    h3 {
+        vertical-align: middle;
+        font-size: 50px;
+        color: white;
+    }
+ }
+
+ .gastronomy-card {
+     background: #1CB5E0;
+     box-shadow: 0 10px 30px #1CB5E0;
+     align-items: center;
+ }
+
+ .attraction-card {
+    background: #F2994A;
+    box-shadow: 0 10px 30px #F2994A;
+    align-items: center;
+}
+
+.accomodation-card {
+    background: #C33764;
+    box-shadow: 0 10px 30px #C33764;
+    align-items: center;
+}
+
+.card-info {
+    background: #fff;
+    padding: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin: 1em auto;
+    border-radius: $borders;
+    box-shadow: 0 10px 30px rgba(0,0,0,.2);
+    width: 80%;
+    height: 175px;
+    flex: 0 1 24%;
+
+
+    h3 {
+        text-align: center;
+    }
+
+    a {
+        float:right;
+        float:left;
+        text-decoration: none;
+        background-color: #d34836;
+        color: white;
+        padding: 15px;
+        border-radius: 8px;
+    }
+ }

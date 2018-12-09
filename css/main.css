@@ -157,7 +157,7 @@ main section div#card .header {
   margin-top: -40px;
 }
 
-main section div#card .header h1 {
+main section div#card .header h3 {
   font-size: 3em;
   text-align: center;
   color: #FFFFFF;
@@ -240,5 +240,96 @@ main section div#card p {
 
 .tab {
   padding-right: 60px;
+}
+
+.card-collection {
+  padding: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.card {
+  background: #fff;
+  padding: 20px;
+  padding-left: 80px;
+  padding-right: 80px;
+  margin: 1em auto;
+  border-radius: 15px;
+  -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  width: 80%;
+  height: 175px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 24%;
+          flex: 0 1 24%;
+}
+
+.card h3 {
+  vertical-align: middle;
+  font-size: 50px;
+  color: white;
+}
+
+.gastronomy-card {
+  background: #1CB5E0;
+  -webkit-box-shadow: 0 10px 30px #1CB5E0;
+          box-shadow: 0 10px 30px #1CB5E0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.attraction-card {
+  background: #F2994A;
+  -webkit-box-shadow: 0 10px 30px #F2994A;
+          box-shadow: 0 10px 30px #F2994A;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.accomodation-card {
+  background: #C33764;
+  -webkit-box-shadow: 0 10px 30px #C33764;
+          box-shadow: 0 10px 30px #C33764;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card-info {
+  background: #fff;
+  padding: 20px;
+  padding-left: 80px;
+  padding-right: 80px;
+  margin: 1em auto;
+  border-radius: 15px;
+  -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  width: 80%;
+  height: 175px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 24%;
+          flex: 0 1 24%;
+}
+
+.card-info h3 {
+  text-align: center;
+}
+
+.card-info a {
+  float: right;
+  float: left;
+  text-decoration: none;
+  background-color: #d34836;
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
 }
 /*# sourceMappingURL=main.css.map */
