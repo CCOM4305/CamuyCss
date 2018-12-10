@@ -199,6 +199,8 @@ main section div#card p {
 }
 
 #navbar .brand svg {
+  background: transparent;
+  z-index: -1;
   height: 70px;
   position: absolute;
   float: left;
